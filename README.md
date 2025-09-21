@@ -34,7 +34,7 @@ cd event-management-server
 npm install
 ```
 
-### Dependencies include:
+#### Dependencies include:
 
 * express – web framework
 * cors – to allow frontend requests
@@ -44,7 +44,7 @@ npm install
 * multer – file uploads
 * @prisma/client – database client
 
-### Dev dependencies:
+#### Dev dependencies:
 
 - typescript, ts-node-dev – TS compilation & hot reload
 - @types/* – type definitions
