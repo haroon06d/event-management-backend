@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // Target modern JS
+    "target": "ES2020",
+
+    // CommonJS modules for Node
+    "module": "CommonJS",
+
+    // Folder setup
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Allow default imports from CommonJS modules
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Type safety
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Debugging
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Module handling
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  }
+}
